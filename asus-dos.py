@@ -9,7 +9,7 @@
 # Twitter: @telspacesystems (Greets to the Telspace Crew)
 # Tested on: Windows 10 RS5 x64
 # CVE: CVE-2019-10709
-
+import sys
 from ctypes import * 
 kernel32 = windll.kernel32 
 ntdll = windll.ntdll 
